@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+header{
+    height: 30px;
+    background-color: rgb(101, 101, 224);
+    padding: 10px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+header a:hover {
+    color: rgb(0, 0, 8); /* Change to a light blue color on hover */
+}
+a:active{
+    color: red;
+}
+.content{
+    display: flex;
+    height: 80vh;   
+}
+.txt{   
+    margin-top: 40px;
+    width:800px;
+    padding: 50px;
+    margin-left: 50px;
+    /* height: max-content; */
+}
+.txt h2{
+    font-size: 36px;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+.txt p{
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.image{
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 60px;
+}
+img{
+    width: 600px;
+    height: 400px;
+}
+footer{
+    padding: 10px;
+    background-color: rgb(174, 174, 246);
+    height:10vh;
+    text-align: center;
+}
+footer p{
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+footer a{
+    text-align: center;
+    margin-right:10px;
+    color: black;
+}
+footer div{
+    margin-top: 10px;
+}
+.button{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    background-color:rgb(101, 101, 224);
+}
+.button:hover {
+    background-color: rgb(67, 67, 179); /* Darker shade of the original color */
+    transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+
+/* whyus-------------------- */
+.whyus{
+    height: 57vh;
+    padding: 10px;
+    margin-top: 50px;
+    display: flex;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.whyus h2{
+    text-decoration: overline underline;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+#whyush1{
+    text-align: center ;
+    margin-top: 40px;
+}
+
+.whyus .promise{
+    width: 50%;
+    padding:40px;
+}
+.whyus p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.promise li{
+    list-style-type: none;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.promise span{
+    font-weight: bold;
+}
+
+.whyus .first{
+    width: 50%;
+    /* background-color: yellow; */
+    padding:40px;
+}
+.first li{
+    margin-left: 20px;
+    font-size: 18px;
+    margin-bottom: 5px;   
+}
+.first ul{
+    margin-bottom: 30px;
+}
+.first p{
+    margin-bottom: 20px;
+}
+ 
+
+
+/* menu--------------- */
+
+.menuh1{
+    text-align: center ;
+    margin-top: 40px;
+}
+#menup{
+    margin-top: 10px;
+    text-align: center;
+}
+.menucard{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:100px;
+}
+.carditem{
+    display: flex;
+    /* flex-direction: row; */
+    background-color: transparent;
+    width: 40%;
+    margin: 20px;
+    background-color: rgba(243, 239, 239, 0.763);
+    padding: 20px;
+    border-radius: 20px;
+}
+.carditem .desc{
+    width: 50%;
+    margin: 50px;
+}
+.desc h3{
+    font-weight: bold;
+    font-size: 24px;
+}
+.desc p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.carditem .cardimg{
+ width: 60%;
+ height: auto; 
+}
+.cardimg img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px 5px rgba(137, 40, 207, 0.336);
+
+}
+ /* ----contact---- */
+
+ #contacth1{
+    text-align: center;
+    margin-top: 40px;
+ }
+ #contactp{
+    text-align: center;
+    margin-top: 10px;
+ }  
+ .contactsection{
+    height: 85vh;
+ }
+ .contactsection .contactdetails{
+    margin:50px;
+    display: flex;
+    font-size: 18px;
+    justify-content: space-around;
+    /* background-color: beige; */
+ }
+ .contactdetails span{
+    font-weight: bold;
+ }
+ .contactdetails p{
+    margin-top :10px;
+ }
+
+
+
+ .contactform {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #d7d3d3;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contactform h3 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .contactform form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contactform label {
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .contactform input,
+  .contactform textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+  }
+  .contactform input:focus,
+.contactform textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
+  .contactform button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .contactform button:hover {
+    background-color: #0056b3;
+  }
+  
